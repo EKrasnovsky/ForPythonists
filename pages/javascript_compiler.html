@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="..//css/style.css">
+	<link rel="stylesheet" href="..//css/tomorrow-night.min.css">
+	<link rel="stylesheet" href="..//css/line-numbers.css">
+	<link rel="stylesheet" href="..//css/javascript_compiler.css">
+	<title>Document</title>
+</head>
+<body>
+	<nav>
+		<img src="..//images/logo.png" class="logo" alt="">
+		<ul class="topmenu">
+			<li><a href="..//index.html">Главная</a></li>
+			<li><a href="" class="down">Python</a>
+				<ul class="submenu">
+					<li><a href="..//index.html">Главная</a></li>
+					<li><a href="">#</a></li>
+					<li><a href="">#</a></li>
+				</ul>
+			</li>
+			<li><a href="" class="down">JavaScript</a>
+				<ul class="submenu">
+					<li><a href="..//pages/javascript.html">Навигация</a></li>
+					<li><a href="">#</a></li>
+					<li><a href="..//pages/javascript_compiler.html">Компилятор</a></li>
+				</ul>
+			</li>
+			<li><a href="" class="down">PHP</a>
+				<ul class="submenu">
+					<li><a href="..//pages/php.html">Навигация</li>
+					<li><a href="">#</li>
+					<li><a href="">#</a></li>
+				</ul>
+			</li>
+			<li><a href="" class="down">HTML/CSS</a>
+				<ul class="submenu">
+					<li><a href="..//pages/htmlcss.html">Навигация</li>
+					<li><a href="">#</li>
+					<li><a href="">#</a></li>
+				</ul>
+			</li>
+			<li><a href="">О Нас</a></li>
+		</ul>
+		<p> </p>
+	</nav>
+
+		<div class="editor">
+			<div class="editor__wrapper">
+					<div class="editor__body">
+							<div id="editorCode" class="editor__code"></div>
+					</div>
+					<div class="editor__footer">
+							<div class="editor__footer--left">
+									<button class="editor__btn editor__run">Run ></button>
+									<button class="editor__btn editor__reset">Reset ></button>
+							</div>
+							<div class="editor__footer--right">
+									<div class="editor__console">
+											<ul class="editor__console-logs"></ul>
+									</div>
+							</div>
+					</div>
+			</div>
+	</div>
+
+	<script src="..//js/highlight.min.js"></script>
+	<script src="..//js/highlightjs-line-numbers.min.js"></script>
+	<script src="..//js/python.min.js"></script>
+	<script src="..//js/javascript.min.js"></script>
+	<script src="..//js/php.min.js"></script>
+	<script src="..//js/css.min.js"></script>
+	<script>
+	hljs.highlightAll();
+	hljs.initLineNumbersOnLoad();
+	</script>
+	<script>
+		function help() {
+			document.location.href = "..//pages/404v001.html"
+		}
+	</script>
+	<script src="..//js/ace.js"></script>
+	<script src="..//js/javascript_compiler.js"></script>
+	<script src="..//js/mode-javascript.js"></script>
+	<script src="..//js/ext-language_tools.js"></script>
+</body>
+<footer>
+	<button onclick="help()">Нужна помощь</button>
+</footer>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="..//css/style.css">
+	<link rel="stylesheet" href="..//css/tomorrow-night.min.css">
+	<link rel="stylesheet" href="..//css/line-numbers.css">
+	<title>Document</title>
+	
+</head>
+<body>
+	<nav>
+		<img src="..//images/logo.png" class="logo" alt="">
+		<ul class="topmenu">
+			<li><a href="..//index.html">Главная</a></li>
+			<li><a href="" class="down">Python</a>
+				<ul class="submenu">
+					<li><a href="pages/python.html">Навигация</a></li>
+					<li><a href="">#</a></li>
+					<li><a href="">#</a></li>
+				</ul>
+			</li>
+			<li><a href="" class="down">JavaScript</a>
+				<ul class="submenu">
+					<li><a href="..//pages/javascript.html">Навигация</a></li>
+					<li><a href="">#</a></li>
+					<li><a href="..//pages/javascript_compiler.html">Компилятор</a></li>
+				</ul>
+			</li>
+			<li><a href="" class="down">PHP</a>
+				<ul class="submenu">
+					<li><a href="..//pages/php.html">Навигация</li>
+					<li><a href="">#</li>
+					<li><a href="">#</a></li>
+				</ul>
+			</li>
+			<li><a href="" class="down">HTML/CSS</a>
+				<ul class="submenu">
+					<li><a href="..//pages/htmlcss.html">Навигация</li>
+					<li><a href="">#</li>
+					<li><a href="">#</a></li>
+				</ul>
+			</li>
+			<li><a href="">О Нас</a></li>
+		</ul>
+	</nav>
+	<pre style="tab-size: 1;" >
+		<code class="language-python"># Код-Шутка, о том как  поднятьь настроение  "Питонисту":) 
+# P.S. На правильно оформленую семантику, увы, не  хватило врем...
+
+from mood import Eating as eat
+from mood import Sleeping as sleep
+from mood import Coding as Code
+
+food = {"eggs", "bread", "bacon", "etc"}
+time1 = "8hour"
+time2 = "All Time"
+
+class create_mood:
+						def lets_eat:
+							good_eat = food.eat()
+						
+						def lets_sleep:
+							good_sleep = time1.sleep()
+
+						def lets_code:
+							good_code = time2.code()
+
+good_mood = create_mood()
+
+good_mood.repeat()
+					</code>
+				</pre>
+
+	<script src="..//js/highlight.min.js"></script>
+	<script src="..//js/highlightjs-line-numbers.min.js"></script>
+	<script src="..//js/python.min.js"></script>
+	<script src="..//js/javascript.min.js"></script>
+	<script src="..//js/php.min.js"></script>
+	<script src="..//js/css.min.js"></script>
+	<script src="..//js/css.min.js"></script>
+	<script>
+		hljs.highlightAll();
+		hljs.initLineNumbersOnLoad();
+		</script>
+		<script>
+			function help() {
+				document.location.href = "..//pages/404v001.html"
+			}
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.23.4/ace.js"></script>
+	</body>
+	<footer>
+		<button onclick="help()">Нужна помощь</button>
+	</footer>
+	</html>

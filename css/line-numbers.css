@@ -1,0 +1,19 @@
+.hljs-ln-numbers {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	text-align: center;
+	background: rgb(39, 43, 48);
+  color: #C5C8C6;
+	border-right: none;
+	vertical-align: top;
+	padding-right: 5px;
+}
+
+.hljs-ln-code {
+	padding-right: 100px;
+}
